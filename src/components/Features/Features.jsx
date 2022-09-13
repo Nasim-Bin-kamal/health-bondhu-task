@@ -49,7 +49,7 @@ const Features = () => {
                             <Row xs={1} md={2} lg={2}>
                                 {
                                     featureCards?.map((card, c_id) => (
-                                        <Col className='p-2'>
+                                        <Col className='p-2' key={c_id}>
                                             <Card className='bg-white shadow-sm p-3'>
                                                 <div className='d-flex justify-content-between align-items-center'>
                                                     <p className={styles.cardTitle}>{card.title}</p>

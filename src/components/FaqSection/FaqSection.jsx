@@ -11,7 +11,7 @@ const accordians = [
     },
     {
         eventKey: '2',
-        heading: 'Get Your General Answer',
+        heading: 'Will I always see my own doctor?',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi beatae asperiores reprehenderit quis voluptatum impedit blanditiis sapiente ullam aliquid alias temporibus.'
     },
     {

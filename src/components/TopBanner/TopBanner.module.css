@@ -20,3 +20,65 @@
 .rate{
     color:#642DFF;
 }
+.mainDiv{
+    position: relative;
+    float: right;
+    
+}
+.subDiv{
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top:0px;
+}
+.checkupButton{
+    position: absolute;
+    z-index: 2;
+    left:-6%;
+    top:65%;
+    background-color: #642DFF!important;
+    border: 0;
+    font-size: 12px;
+    padding: 14px 20px;
+    
+}
+
+.doctorsCard{
+    position: absolute;
+    z-index: 2;
+    left:65%;
+    top:75%;
+    width: 229px;
+    padding: 15px;
+}
+.cardTitle{
+    font-size: 14px;
+    color:#1E1E1E;
+}
+
+
+@media only screen and (max-width:1280px) {
+    .checkupButton{
+        position: absolute;
+        z-index: 2;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #642DFF!important;
+        border: 0;
+        font-size: 12px;
+        padding: 14px 20px;
+        
+    }
+    .doctorsCard{
+        
+        position: absolute;
+        z-index: 2;
+        bottom: 0%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 229px;
+        /* height: 133px; */
+        padding: 15px;
+    }
+}

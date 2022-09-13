@@ -7,10 +7,10 @@ import Header from '../components/Header/Header';
 import Services from '../components/Services/Services';
 import Testimonial from '../components/Testimonial/Testimonial';
 import TopBanner from '../components/TopBanner/TopBanner';
-
+import styles from './Home.module.css';
 const Home = () => {
     return (
-        <div>
+        <div className={styles.homePage}>
             <Header />
             <TopBanner />
             <Services />
