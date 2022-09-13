@@ -6,4 +6,36 @@
 .title{
     color:#1E1E1E;
 }
+.accordion{
+    --bs-accordion-bg: transparent!important;
+}
+.accordion-button::after{
+    background-image: none!important;
+}
 
+.mainDiv{
+    position: relative;
+    float: right;
+}
+
+.childDiv{
+    position: absolute;
+    z-index: 2;
+    width: 211px;
+    top:60%;
+    left: -25%;
+}
+.content{
+    font-size: 12px;
+}
+
+@media only screen and (max-width:1280px){
+    .childDiv{
+        position: absolute;
+        z-index: 2;
+        width: 211px;
+        top:70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

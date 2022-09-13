@@ -31,7 +31,7 @@ const cards = [
 
 const Services = () => {
     return (
-        <div className='mx-auto mt-4'>
+        <div className='mx-auto mt-5'>
             <Container>
                 <p className={styles.heading}>Our Services</p>
                 <h2 className={styles.title}>Services For Your Health</h2>

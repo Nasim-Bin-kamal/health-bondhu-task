@@ -16,12 +16,12 @@ const Footer = () => {
                     <Col xs={12} md={3} lg={3}>
                         <img src={logo} alt="" />
                         <p><small className={styles.desc}>simply dummy text of the printing and typesetting industry. Lorem Ipsum has bee</small></p>
-                        <div className='d-flex justify-content-between align-items-center'>
-                            <img className='img-fluid' src={facebook} alt="" />
-                            <img className='img-fluid' src={instagram} alt="" />
-                            <img className='img-fluid' src={google} alt="" />
-                            <img className='img-fluid' src={twitter} alt="" />
-                            <img className='img-fluid' src={youtube} alt="" />
+                        <div className='d-flex justify-content-start align-items-center'>
+                            <img className='img-fluid me-3' src={facebook} alt="" />
+                            <img className='img-fluid me-3' src={instagram} alt="" />
+                            <img className='img-fluid me-3' src={google} alt="" />
+                            <img className='img-fluid me-3' src={twitter} alt="" />
+                            <img className='img-fluid me-3' src={youtube} alt="" />
                         </div>
                     </Col>
                     <Col xs={12} md={3} lg={3} >

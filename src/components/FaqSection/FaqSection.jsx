@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row, Accordion } from 'react-bootstrap';
 import styles from './FaqSection.module.css';
 import faqImage from '../../images/Frame 21.png';
+import solutionIcon from '../../images/Group 28.png';
 
 const accordians = [
     {
@@ -44,7 +45,7 @@ const FaqSection = () => {
                             <div>
                                 {
                                     accordians?.map((accordion, a_id) => (
-                                        <Accordion defaultActiveKey="0" flush key={a_id}>
+                                        <Accordion defaultActiveKey="0" flush key={a_id} className={styles.accordion}>
                                             <Accordion.Item eventKey={accordion.eventKey}>
                                                 <Accordion.Header>{accordion.heading}</Accordion.Header>
                                                 <Accordion.Body>{accordion.desc}</Accordion.Body>
@@ -58,13 +59,20 @@ const FaqSection = () => {
                     </Col>
 
                     <Col xs={12} md={6} lg={7}>
-                        <div>
-                            <img className='img-fluid float-end' src={faqImage} alt="" />
+                        <div className={styles.mainDiv} >
+                            <div >
+                                <img className='img-fluid float-end' src={faqImage} alt="" />
+                            </div>
+
+                            <div className={`d-flex justify-content-center align-items-center p-2 bg-white rounded-3 ${styles.childDiv}`}>
+                                <img className='img-fluid me-3' src={solutionIcon} alt="" />
+                                <p className={styles.content}>Get Solutions From Our Experts</p>
+                            </div>
                         </div>
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     );
 };
 

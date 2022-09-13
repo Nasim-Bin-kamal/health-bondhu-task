@@ -14,10 +14,10 @@ const SampleNextArrow = (props) => {
     return (
 
         <Button
-            className={`d-flex justify-content-center align-items-center bg-transparent  border-0 `}
+            className={`d-flex justify-content-center align-items-center bg-transparent border-0`}
             onClick={onClick}
         >
-            <img src={rightArrow} alt="" />
+            <img className={styles.arrowSign} src={rightArrow} alt="" />
         </Button>
     );
 }
@@ -32,7 +32,7 @@ const SamplePrevArrow = (props) => {
 
             onClick={onClick}
         >
-            <img src={leftArrow} alt="" />
+            <img className={styles.arrowSign} src={leftArrow} alt="" />
         </Button>
     );
 }
@@ -53,22 +53,25 @@ const Testimonial = () => {
                 <p className={styles.heading}>Testimonial</p>
                 <h2 className={styles.title}>What they say?</h2>
 
-                <Row xs={1} md={1} lg={1}>
-                    <Col >
-                        <Slider {...settings}
-                            className='d-flex justify-content-center align-items-center'
-                        >
-                            <div>
-                                <img className='img-fluid' src={carouselImage} alt="" />
-                            </div>
-                            <div>
-                                <img className='img-fluid' src={carouselImage} alt="" />
-                            </div>
-                            <div>
-                                <img className='img-fluid' src={carouselImage} alt="" />
-                            </div>
+                <Row xs={1} md={1} lg={1} className='d-flex justify-content-center align-items-center'>
 
-                        </Slider>
+                    <Col xs={10} md={10} lg={9}>
+                        <div className={styles.sliderSection}>
+                            <Slider {...settings}
+                                className='mx-auto d-flex justify-content-center align-items-center'
+                            >
+                                <div>
+                                    <img className='img-fluid p-1' src={carouselImage} alt="" />
+                                </div>
+                                <div>
+                                    <img className='img-fluid p-1' src={carouselImage} alt="" />
+                                </div>
+                                <div>
+                                    <img className='img-fluid p-1' src={carouselImage} alt="" />
+                                </div>
+
+                            </Slider>
+                        </div>
                     </Col>
                 </Row>
             </Container>

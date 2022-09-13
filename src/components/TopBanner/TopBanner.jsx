@@ -6,6 +6,7 @@ import elipse from '../../images/Ellipse 5.png';
 import doctorsImage from '../../images/Group 3.png';
 import line1 from '../../images/Rectangle 4.png'
 import line2 from '../../images/Rectangle 5.png'
+import ornament from '../../images/Ornament 19.png';
 
 import { BsCheckCircle } from "react-icons/bs";
 
@@ -51,10 +52,11 @@ const TopBanner = () => {
 
                             <Card className={styles.doctorsCard}>
                                 <p className={styles.cardTitle}>Meet Our Doctors</p>
-                                <img className='img-fluid w' src={doctorsImage} alt="" />
+                                <img className='img-fluid' src={doctorsImage} alt="" />
                                 <img className='my-1' src={line1} alt="" />
                                 <img src={line2} alt="" />
                             </Card>
+                            <img className={styles.ornament} src={ornament} alt="" />
 
 
                         </div>

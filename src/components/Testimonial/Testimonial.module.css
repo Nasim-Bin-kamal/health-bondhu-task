@@ -7,3 +7,12 @@
     color:#1E1E1E;
     text-align: center;
 }
+.arrowSign{
+    width: 65px;
+}
+
+@media only screen and (max-width:1280px) {
+    .arrowSign{
+        width: 30px;
+    }
+}
