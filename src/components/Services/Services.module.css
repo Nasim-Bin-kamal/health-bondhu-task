@@ -1,0 +1,27 @@
+.heading{
+    font-weight: 500;
+    color:#642DFF;
+    text-align: center;
+}
+.title{
+    color:#1E1E1E;
+    text-align: center;
+}
+
+.cardTitle{
+    font-size: 12px;
+    color:#1E1E1E;
+}
+.cardContent{
+    font-size: 14px;
+    color:#575757;
+}
+.button{
+    color:#1E1E1E;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+.button:hover{
+    color:#2D89FF;
+}

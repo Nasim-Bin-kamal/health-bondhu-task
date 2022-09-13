@@ -1,0 +1,22 @@
+
+.title{
+    font-size: 60px;
+}
+.health{
+    color:#2D89FF;
+}
+.priority{
+    color:#642DFF;
+}
+.subtitle{
+    color:#575757;
+  
+}
+.button{
+    background-color: #2D89FF!important;
+    border: 0;
+    padding: 15px 20px;
+}
+.rate{
+    color:#642DFF;
+}
