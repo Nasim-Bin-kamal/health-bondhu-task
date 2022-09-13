@@ -1,4 +1,5 @@
 import React from 'react';
+import Experience from '../components/Experience/Experience';
 import Header from '../components/Header/Header';
 import Services from '../components/Services/Services';
 import TopBanner from '../components/TopBanner/TopBanner';
@@ -9,6 +10,7 @@ const Home = () => {
             <Header />
             <TopBanner />
             <Services />
+            <Experience />
         </div>
     );
 };
