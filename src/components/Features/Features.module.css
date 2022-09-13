@@ -1,0 +1,23 @@
+.heading{
+    font-weight: 500;
+    color:#642DFF;
+   
+}
+.title{
+    color:#1E1E1E;
+}
+.description{
+    font-size: 14px;
+    color: #575757;
+    text-align: justify;
+}
+.cardTitle{
+    font-size: 14px;
+    color:#1E1E1E;
+}
+.cardDesc{
+    font-size: 14px;
+    color:#575757;
+    text-align: justify;
+    
+}

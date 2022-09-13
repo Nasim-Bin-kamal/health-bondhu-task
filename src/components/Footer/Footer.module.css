@@ -1,0 +1,43 @@
+.footerSection{
+    background-color: #E9EEF7;
+}
+.desc{
+    font-size: 14px;
+    text-align: justify;
+    color:#575757;
+}
+.footerTitle{
+    color:#642DFF;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.quickNav {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+.navItem {
+    font-size: 12px;
+    color:#1E1E1E;
+    line-height: 1.6rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+.appointmentDay{
+    padding-right: 10px;
+    font-size: 12px;
+    color:#2D89FF;
+    font-weight: 400;
+}
+
+.appointmentTime{
+    font-size: 12px;
+    color:#575757;
+    font-weight: 400;
+}
+.copyright{
+    font-size: 12px;
+    color:#1E1E1E;
+    font-weight: 400;
+}
